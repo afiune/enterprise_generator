@@ -1,0 +1,19 @@
+{
+  "version": "2",
+  "build_cookbook": {
+    "name": "build_cookbook",
+    "path": ".delivery/build_cookbook"
+  },
+  "delivery-truck": {
+    "publish": {
+      "chef_server": true,
+      "supermarket": "https://private-supermarket.example.com"
+    }
+  },
+  "skip_phases": [
+    "functional",
+    "smoke"
+  ],
+  "build_nodes": {},
+  "dependencies": []
+}
